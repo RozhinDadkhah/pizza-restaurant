@@ -1,0 +1,37 @@
+.dropdown-menu {
+    background-color: black;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    list-style: none;
+    text-align: start;
+}
+
+.dropdown-menu li {
+    background-color: rgba(36, 43, 43, 0.533);
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0 55px;
+}
+
+.dropdown-menu li:hover{
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: 500;
+    transition: all 0.3 ease-in-out;
+}
+
+.dropdown-menu.clicked {
+    display: none;
+}
+
+.dropdown-link {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
